@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebcc;
+    color: #3a3a3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #87D3A4;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #ffdd99;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.quote-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #87D3A4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6ba67d;
+}
+
+.fun-facts {
+    background-color: #ffdd99;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.interactive {
+    margin-bottom: 30px;
+}
+
+#inspiration-message {
+    font-size: 1.2rem;
+    color: #4f8a52;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #87D3A4;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
